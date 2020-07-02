@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    
+    font-family: lato;
 }
 .container{
     width:1140px;
@@ -82,4 +82,135 @@ nav ul li{
 }
 .fa.fa-angle-down{
     
+}
+
+/*Simple and pure design part*/
+.design{
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+}
+.design .design-content{
+    width: 70%;
+    margin: 0px auto;
+}
+.design-content h3{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom:20px;
+    color: #2d3950;
+    font-size: 23px;
+    font-weight: 100;
+}
+.design-content p{
+    text-align: justify;
+    text-align-last: center;
+    padding-bottom: 80px;
+    color:#a0a0a0;
+    font-size:16px;
+    line-height: 25px;
+    font-weight: normal;
+}
+
+/*Features section*/
+.featurediv{
+    padding-top: 35px;
+    
+}
+.features{
+    width: 100%;
+    float: left;
+    background: #fff;
+}
+.feauture{
+    width: 25%;
+    display: inline-block;
+    float: left;
+    margin-left: 5%;
+    
+}
+.feauture  h4{
+     text-align: center;
+    padding-top: 20px;
+    padding-bottom:10px;
+    color: #2d3950;
+    font-size: 18px;
+    font-weight: 100;
+}
+.feauture img{
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+}
+.feauture p{
+    text-align: justify;
+    text-align-last: center;
+    padding-bottom: 80px;
+    color:#a0a0a0;
+    font-size:16px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.features .respond{
+    
+}
+
+.features .clean{
+    
+}
+
+/*Portfolio Section*/
+.portfolio{
+    background: #f6f9f9;
+   
+    
+}
+
+.portfolios{
+    width: 100%;
+    float: left;
+    margin-left: 100px;
+    
+}
+.portfolios p{
+     text-align: justify;
+    text-align-last: center;
+    padding-bottom: 80px;
+    color:#a0a0a0;
+    font-size:16px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.portfolios h4{
+     text-align: center;
+    padding-top: 20px;
+    padding-bottom:10px;
+    color: #2d3950;
+    font-size: 18px;
+    font-weight: 100;
+}
+.job{
+    width: 24%;
+    float: left;
+    margin-bottom: 20px;
+    margin-right:
+    
+}
+.jobpart{
+    margin: 0px auto;
+}
+.A{
+    margin-left: 45px;
+}
+.D{
+    margin-left: 50px;
+}
+.job img{
+    width: 250px;
+    height: 200px;
+}
+.portcot{
+    width: 50%;
+    margin: 0px auto;
 }
