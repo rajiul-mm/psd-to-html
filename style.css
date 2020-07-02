@@ -163,26 +163,21 @@ nav ul li{
 /*Portfolio Section*/
 .portfolio{
     background: #f6f9f9;
-   
+    width: 100%;
+    float: left;
     
 }
 
-.portfolios{
-    width: 100%;
-    float: left;
-    margin-left: 100px;
-    
-}
-.portfolios p{
+p{
      text-align: justify;
     text-align-last: center;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
     color:#a0a0a0;
     font-size:16px;
     line-height: 20px;
     font-size: 14px;
 }
-.portfolios h4{
+ h4{
      text-align: center;
     padding-top: 20px;
     padding-bottom:10px;
@@ -197,9 +192,6 @@ nav ul li{
     margin-right:
     
 }
-.jobpart{
-    margin: 0px auto;
-}
 .A{
     margin-left: 45px;
 }
@@ -207,6 +199,14 @@ nav ul li{
     margin-left: 50px;
 }
 .job img{
-    width: 250px;
-    height: 200px;
+    width: 193px;
+    height: 125px;
+}
+.portcot{
+    width: 50%;
+    margin: 0px auto;
+}
+.soraw{
+    width: 80%;
+    margin-left: 18%;
 }
