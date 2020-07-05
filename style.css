@@ -10,6 +10,11 @@ body{
     width:1140px;
     margin: 0px auto;
 }
+.namnai{
+    width: 100%;
+    float: left;
+    background:#f6f9f9;
+}
 header .top{
     width: 100%;
     float: left;
@@ -29,6 +34,8 @@ nav ul li{
     margin: 0px 30px;
     font-size: 26px;
     cursor: pointer;
+     color:#a0a0a0;
+    font-size:16px;
 }
  header .top .logo{
      width: 30%;
@@ -168,7 +175,7 @@ nav ul li{
     
 }
 
-p{
+.portfolio p{
      text-align: justify;
     text-align-last: center;
     padding-bottom: 20px;
@@ -185,28 +192,151 @@ p{
     font-size: 18px;
     font-weight: 100;
 }
-.job{
-    width: 24%;
+
+/*Porfolio Section*/
+.porfolio-top{
+    width: 100%;
     float: left;
-    margin-bottom: 20px;
-    margin-right:
-    
+  
 }
-.A{
-    margin-left: 45px;
+.porfolio-bottom{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    padding-bottom: 120px;
 }
-.D{
-    margin-left: 50px;
+.hover-image{
+    position: relative;
+    width: 22%;
+    float: left;
+    margin-right: 3%;
+     
 }
-.job img{
-    width: 193px;
-    height: 125px;
+.img-one{
+     margin-left: 14%;
 }
-.portcot{
-    width: 50%;
+.hover-image img{
+     width: 100%;
+}
+.hover-image-content{
+    background: rgba(53, 94, 186, 0.87);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.hover-image-content h3{
+    padding-top: 30%;
+    color: white;
+    text-align: center;
+}
+.hover-image-content h6{
+     color: white;
+    text-align: center;
+}
+.hover-image:hover .hover-image-content{
+    opacity: 1;
+}
+/*Contact*/
+.stay{
+    background: url(img/lastbg.jpg);
+    width: 100%;
+    float: left;
+    margin-top: 0;
+}
+.btmform h3{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+.btmform {
+ width: 40%;
     margin: 0px auto;
 }
-.soraw{
-    width: 80%;
-    margin-left: 18%;
+.btmform p{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    color:#a0a0a0;
+    font-size:16px;
+    line-height: 20px;
+    font-size: 14px;
+}
+}
+form{
+  
+    width: 40%;
+    margin: 0px auto;
+}
+form .name{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    margin-bottom: 10px;
+}
+textarea{
+    width: 100%;
+    margin-top: 10px;
+    padding: 30px;
+    background: transparent;
+}
+.check{
+    float: left;
+}
+label{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    color:#a0a0a0;
+    font-size:16px;
+    font-size: 14px;
+}
+.footer-left{
+    margin-top: 10px;
+    display: inline-block;
+}
+.footer-left input{
+    margin-top: 4px;
+    margin-right: 3px;
+}
+.footer-right{
+    float: right;
+}
+.footer-right button{
+     margin-top: 10px;
+    padding: 3px 10px;
+    color: white;
+    background: transparent;
+    border: 1px solid #0a0a80;
+}
+.footer-form{
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+}
+.copyright{
+    width: 100%;
+    float: left;
+    background: #ffffff;
+    padding: 15px;
+}
+.copyright-content p{
+    color:#a0a0a0;
+    font-size:16px
+    font-size: 14px;
+}
+.copyright-content{
+    width: 70%;
+    float: left;
+    margin-left: 10%;
+}
+.copyright-icon{
+    width: 10%;
+      float: left;
+}
+.copyright-icon .fab{
+    color: #15a4fa;
 }
